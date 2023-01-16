@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pca-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["Victor Chiletto <v@hnn.net.br>"]
+readme = "README.md"
+packages = [{include = "pca_analyzer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^0.15.15"
+black = "^22.12.0"
+python-dateutil = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
